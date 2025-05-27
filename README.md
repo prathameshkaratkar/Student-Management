@@ -31,3 +31,30 @@ A RESTful API built with Spring Boot for managing student records with MYSQL dat
  ```
     mvn clean install
  ```
+ 4. Configure with MYSQL credentials
+
+## Running the Application
+ 1. Using Maven
+ ```
+ mvn spring-boot:run
+ ```
+ 2. Using IDE
+ ```
+ StudentManagementApplication.java
+ ```
+
+## API Endpoints
+ ```
+ GET -> students
+ GET -> students/{id}
+ POST -> students
+ PUT -> students/{id}
+ DELETE -> students/{id}
+ ```
+
+Student JSON Structure
+```
+"name" : "prathamesh",
+"email": "prathamesh@gmail.com",
+"course": "Full Stack Java Development"
+```
