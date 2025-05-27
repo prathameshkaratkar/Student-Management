@@ -54,7 +54,9 @@ A RESTful API built with Spring Boot for managing student records with MYSQL dat
 
 Student JSON Structure
 ```
+{
 "name" : "prathamesh",
 "email": "prathamesh@gmail.com",
 "course": "Full Stack Java Development"
+}
 ```
