@@ -60,3 +60,37 @@ Student JSON Structure
 "course": "Full Stack Java Development"
 }
 ```
+
+## Database Configuration
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/student_management
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MYSQL8Dialect
+spring.jpa.show-sql=true
+
+```
+
+## Testing with Postman
+### Setup Postman Collection
+```
+1. Open Postman
+2. Create a new collection named "Student Management"
+3. Set base URL as http://localhost:8080/students
+```
+
+### Test Cases to Execute
+#### 1. POST /students - Create Student
+#### 2. GET /students - Get All Students
+#### 3. GET /students/{id} - Get Student by ID
+#### 4. PUT /students/{id} - Update Student 
+#### 5. DELETE /students/{id} - Delete Student
+
+
+## Contribution
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
