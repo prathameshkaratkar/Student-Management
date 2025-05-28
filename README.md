@@ -61,6 +61,14 @@ Student JSON Structure
 }
 ```
 
+Screenshots:
+![POST Success](screenshots/PostMapping.jpg)
+![GET All](screenshots/GetMapping.jpg)
+![PUT Update](screenshots/PutMapping.jpg)
+![DELETE](screenshots/DeleteMapping.jpg)
+![GET BY Id](screenshots/GetById.jpg)
+
+
 ## Database Configuration
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/student_management
