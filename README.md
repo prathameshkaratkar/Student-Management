@@ -61,7 +61,7 @@ Student JSON Structure
 }
 ```
 
-Screenshots:
+## Screenshots:
 ![POST Success](screenshots/PostMapping.jpg)
 ![GET All](screenshots/GetMapping.jpg)
 ![PUT Update](screenshots/PutMapping.jpg)
