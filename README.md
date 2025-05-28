@@ -35,7 +35,7 @@ A RESTful API built with Spring Boot for managing student records with MYSQL dat
 
 ## 📁 Project Structure
 ```
-src/main/java/com/example/SMA
+src/main/java/com/example/StudentManagement
 │
 ├── Controller
 │   └── StudentController.java
